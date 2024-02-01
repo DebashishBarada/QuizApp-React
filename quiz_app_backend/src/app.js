@@ -1,0 +1,11 @@
+const express = require('express')
+const routing = require('./routes/routing')
+const cors = require('cors')
+const bodyParser = require('body-parser')
+const app = express()
+app.use(bodyParser.json())
+app.use(cors())
+app.use(routing)
+app.listen(4000, ()=>{
+    console.log('Server started at 4000')
+})

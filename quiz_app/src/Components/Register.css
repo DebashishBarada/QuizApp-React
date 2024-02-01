@@ -1,0 +1,65 @@
+/* .jumbotron{
+    text-align: center; 
+    color: rgba(153, 153, 153, 0.826);
+} */
+
+.test{
+    color: aqua;
+}
+
+.container{
+    border: 1px solid rgb(133, 124, 124);
+    display: flex;
+}
+
+.part{
+    border: 1px solid pink;
+    flex: 1;
+}
+
+.card{
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    border: none !important;
+    margin-top: 3.5vh;
+}
+
+#part2{
+    background-color: #1976d2;
+    color: white;
+}
+
+.form-group{
+    margin-bottom: 3vh;
+    width: 27vw !important;
+}
+
+#email{
+    margin-top: 1.5vw;
+}
+
+/* .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 24vw;
+} */
+
+.name{
+    flex: 1;
+    margin-top: 2vh !important;
+}
+
+.name-row{
+    display: flex;
+    width: 36vw;
+}
+
+.name:nth-of-type(1){
+    margin-right: 10px;
+}
+
+.date-of-birth{
+    width: 17.7vw
+}
+
+.organization{
+    width: 17.7vw;
+}
